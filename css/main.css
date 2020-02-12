@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#381043;
+    color:#2c6859;
 }
 
 h1 {
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#8A6694;
+    background-color:rgb(102, 86, 107);
     color: whitesmoke;
 }
 
