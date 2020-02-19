@@ -27,6 +27,7 @@ div{
     height:20rem ;
     width: 80%;
     margin: auto;
+    margin-top: 10px;
 }
 p{
     font-family: 'Barlow', sans-serif;
