@@ -1,0 +1,16 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+body {
+    margin: 0;
+  }
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Sriracha', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Simonetta', cursive;*/
+h1{
+    font-family: 'Sriracha', cursive;
+}
