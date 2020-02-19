@@ -19,10 +19,12 @@ h2{
     font-family: 'Dancing Script', cursive;
 }
 div{
+    padding: 10px;
+}
+#imagenCentral{
     background-image: url("/Tecnolog-aWeb1/imagenes/salar-de-uyuni-bolivia.jpg");
     background-position: center;
     height:20rem ;
-    
 }
 p{
     font-family: 'Barlow', sans-serif;
