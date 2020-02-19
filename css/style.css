@@ -10,7 +10,19 @@ font-family: 'Sriracha', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-family: 'Comfortaa', cursive;
-font-family: 'Simonetta', cursive;*/
+font-family: 'Simonetta', cursive;
+font-family: 'Oranienbaum', serif;*/
 h1{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Sulphur Point', sans-serif;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
+div{
+    background-image: url("/Tecnolog-aWeb1/imagenes/salar-de-uyuni-bolivia.jpg");
+    background-position: center;
+        height:20rem ;
+}
+p{
+    font-family: 'Barlow', sans-serif;
 }
