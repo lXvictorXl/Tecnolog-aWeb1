@@ -25,6 +25,7 @@ div{
     background-image: url("/Tecnolog-aWeb1/imagenes/salar-de-uyuni-bolivia.jpg");
     background-position: center;
     height:20rem ;
+    width: 80%;
 }
 p{
     font-family: 'Barlow', sans-serif;
