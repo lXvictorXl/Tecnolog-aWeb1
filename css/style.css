@@ -33,3 +33,12 @@ p{
     font-family: 'Barlow', sans-serif;
     text-align: justify;
 }
+div img{
+    width: 150px;
+    height: 100px;
+}
+.galeria{
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+}
