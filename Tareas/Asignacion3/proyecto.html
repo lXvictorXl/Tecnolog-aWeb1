@@ -45,7 +45,11 @@
 
     </main>
     <footer>
-        &copy;2020 Victor Veizaga - Location: Bolivia
+        &copy;
+        <script>
+            document.write(new Date().getDate()+ "/" +(new Date().getMonth()+1)+ "/" +new Date().getFullYear());
+        </script>
+         Victor Veizaga - Location: Bolivia
     </footer>
 </body>
 
