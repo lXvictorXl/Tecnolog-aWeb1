@@ -33,7 +33,7 @@ p{
     font-family: 'Barlow', sans-serif;
     text-align: justify;
 }
-div img{
+.galeria img{
     width: 150px;
     height: 100px;
 }
