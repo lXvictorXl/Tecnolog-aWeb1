@@ -34,7 +34,7 @@
     </main>
     <script>
         var tituloHotel = document.getElementsByClassName('tituloHotel');
-        var infoHotel = document.getElementById('infoHotel');
+        var infoHotel = document.getElementsByClassName('infoHotel');
 
         var requestURL = 'https://lxvictorxl.github.io/Tecnolog-aWeb1/json/informacion.json';
         var request = new XMLHttpRequest();
@@ -59,10 +59,8 @@
                 myPara.textContent = 'Ubicación: ' + hoteles[i].Ubicacion;
                 tituloHotel[i].appendChild(myPara);
 
-                var myPara1 = document.createElement('p');
-                myPara1.textContent = 'Caracteristicas: ' + hoteles[i].Caracteristicas;
 
-                /*var myArticle = document.createElement('article');
+                var myArticle = document.createElement('article');
                 var myPara1 = document.createElement('p');
                 var myPara2 = document.createElement('p');
                 var myList = document.createElement('ul');
@@ -80,7 +78,7 @@
                 myArticle.appendChild(myPara1);
                 myArticle.appendChild(myPara2);
                 myArticle.appendChild(myList);
-                infoHotel[i].appendChild(myArticle);*/
+                infoHotel[i].appendChild(myArticle);
 
             }
 
