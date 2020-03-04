@@ -194,7 +194,7 @@ function titulosHoteles(jsonObj) {
   tituloHotel2.appendChild(myPara);
 }
 function infoHoteles(jsonObj) {
-  for (var i = 0; i < heroes.length; i++) {
+  
     var myArticle = document.createElement('article');
     
     var myPara1 = document.createElement('p');
@@ -222,7 +222,7 @@ function infoHoteles(jsonObj) {
     listarContactos(contactos);    
 
     infoHotel2.appendChild(myArticle);
-  }
+ 
 }
 function listarContactos(lista)
 {
