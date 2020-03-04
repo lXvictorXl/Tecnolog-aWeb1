@@ -162,8 +162,8 @@ function linkear() {
 //////ASIGNACION9-JSON
 var tituloHotel1 = document.getElementById('tituloHotel1');
 var tituloHotel2 = document.getElementById('tituloHotel2');
-var infoHotel1=document.getElementById('infoHotel1');
-var infoHotel2=document.getElementById('infoHotel2');
+var infoHotel1 = document.getElementById('infoHotel1');
+var infoHotel2 = document.getElementById('infoHotel2');
 var requestURL = 'https://lxvictorxl.github.io/Tecnolog-aWeb1/json/informacion.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -175,7 +175,7 @@ request.onload = function () {
   titulosHoteles(infoHoteles);
   infoHoteles(infoHoteles);
 }
-var hoteles=jsonObj['Hoteles'];
+var hoteles = jsonObj['Hoteles'];
 function titulosHoteles(jsonObj) {
   var myH2 = document.createElement('h2');
   myH2.textContent = hoteles[0].Hotel;
@@ -193,39 +193,38 @@ function titulosHoteles(jsonObj) {
   myPara.textContent = 'Ubicación: ' + hoteles[1].Ubicacion;
   tituloHotel2.appendChild(myPara);
 }
+var myArticle = document.createElement('article');
+var myPara1 = document.createElement('p');
+var myPara2 = document.createElement('p');
+var myList = document.createElement('ul');
 function infoHoteles(jsonObj) {
-  
-    var myArticle = document.createElement('article');
-    
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myList = document.createElement('ul');
 
-    myPara1.textContent = 'Características: ' + hoteles[0].Caracteristicas;
-    myPara2.textContent = 'Contactos: ';
-    
-    var contactos = heroes[0].Contactos;
-    listarContactos(contactos);    
 
-    infoHotel1.appendChild(myArticle);
 
-    myArticle = document.createElement('article');
-    
-    myPara1 = document.createElement('p');
-    myPara2 = document.createElement('p');
-    myList = document.createElement('ul');
+  myPara1.textContent = 'Características: ' + hoteles[0].Caracteristicas;
+  myPara2.textContent = 'Contactos: ';
 
-    myPara1.textContent = 'Características: ' + hoteles[1].Caracteristicas;
-    myPara2.textContent = 'Contactos: ';
-    
-    contactos = heroes[1].Contactos;
-    listarContactos(contactos);    
+  var contactos = heroes[0].Contactos;
+  listarContactos(contactos);
 
-    infoHotel2.appendChild(myArticle);
- 
+  infoHotel1.appendChild(myArticle);
+
+  myArticle = document.createElement('article');
+
+  myPara1 = document.createElement('p');
+  myPara2 = document.createElement('p');
+  myList = document.createElement('ul');
+
+  myPara1.textContent = 'Características: ' + hoteles[1].Caracteristicas;
+  myPara2.textContent = 'Contactos: ';
+
+  contactos = heroes[1].Contactos;
+  listarContactos(contactos);
+
+  infoHotel2.appendChild(myArticle);
+
 }
-function listarContactos(lista)
-{
+function listarContactos(lista) {
   for (var j = 0; j < lista.length; j++) {
     var listItem = document.createElement('li');
     listItem.textContent = lista[j];

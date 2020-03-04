@@ -1,24 +1,24 @@
 {
     "Hoteles": [
-      {
-        "Hotel": "Palacio de Sal",
-        "Ubicacion": "Orillas del Salar de Uyuni",
-        "Caracteristicas":"Un hotel suigeneris, de arquitectura única y especial, cuyo objetivo es brindar a los visitantes que llegan al salar, un lugar mágico donde encontrar el equilibrio con la naturaleza y disfrutar de un descanso placentero e inolvidable que perdure en los recuerdos. Ubicado orillas del salar, con la intención de brindar a los turistas el confort y la comodidad que necesitan. Lo exótico, lo moderno y lo autóctono se combinan armónicamente para crear, sobre más de 4. 500 metros cuadrados, el primer hotel de sal del mundo, un espacio insólito e inigualable que enamora a todo aquel que lo visita y que, con todos los servicios que la hotelería moderna exige, es capaz de convertir su visita en una mágica experiencia.",
-        "Contactos":[
-          "+591-2-6225186", 
-          "info@palaciodesal.com.bo",
-          "https://www.palaciodesal.com.bo/es/hotel.html" 
-        ]
-      },
-      {
-          "Hotel": "Luna Salada",
-          "Ubicacion": "Potosi",
-          "Caracteristicas":"Un hotel completamente hecho de sal en Bolivia que ofrece a sus huéspedes la esencia de los Andes, en el borde de los salares más grandes del mundo. Te invitamos a quedarte con nosotros mientras  visitas uno de los lugares más singulares de la tierra. Salga a los salares blancos a pocos metros de las puertas de nuestro hotel, a una gran extensión de blanco hasta donde la vista alcanza. Desconéctese y disfrute de este lugar remoto: nuestras habitaciones están diseñadas con coloridos encantos, arte y muebles de los Andes. Disfrute del delicioso sabor regional en nuestro restaurante Tunupa, donde podrá disfrutar de un desayuno gratis para comenzar bien el día. Para una relajación sin interrupciones, disfrute de nuestro spa en la sala de vapor con una vista panorámica o reserve un masaje.",
-          "Contactos":[
-              "591-2-2770885 ",
-              "reservas@lunasaladahotel.com.bo",
-              "https://www.lunasaladahotel.com.bo/es/"
-          ]
+        {
+            "Hotel": "Palacio de Sal",
+            "Ubicacion": "Orillas del Salar de Uyuni",
+            "Caracteristicas": "Un hotel suigeneris, de arquitectura única y especial, cuyo objetivo es brindar a los visitantes que llegan al salar, un lugar mágico donde encontrar el equilibrio con la naturaleza y disfrutar de un descanso placentero e inolvidable que perdure en los recuerdos. Ubicado orillas del salar, con la intención de brindar a los turistas el confort y la comodidad que necesitan. Lo exótico, lo moderno y lo autóctono se combinan armónicamente para crear, sobre más de 4. 500 metros cuadrados, el primer hotel de sal del mundo, un espacio insólito e inigualable que enamora a todo aquel que lo visita y que, con todos los servicios que la hotelería moderna exige, es capaz de convertir su visita en una mágica experiencia.",
+            "Contactos": [
+                "+591-2-6225186",
+                "info@palaciodesal.com.bo",
+                "https://www.palaciodesal.com.bo/es/hotel.html"
+            ]
+        },
+        {
+            "Hotel": "Luna Salada",
+            "Ubicacion": "Potosi",
+            "Caracteristicas": "Un hotel completamente hecho de sal en Bolivia que ofrece a sus huéspedes la esencia de los Andes, en el borde de los salares más grandes del mundo. Te invitamos a quedarte con nosotros mientras  visitas uno de los lugares más singulares de la tierra. Salga a los salares blancos a pocos metros de las puertas de nuestro hotel, a una gran extensión de blanco hasta donde la vista alcanza. Desconéctese y disfrute de este lugar remoto: nuestras habitaciones están diseñadas con coloridos encantos, arte y muebles de los Andes. Disfrute del delicioso sabor regional en nuestro restaurante Tunupa, donde podrá disfrutar de un desayuno gratis para comenzar bien el día. Para una relajación sin interrupciones, disfrute de nuestro spa en la sala de vapor con una vista panorámica o reserve un masaje.",
+            "Contactos": [
+                "591-2-2770885 ",
+                "reservas@lunasaladahotel.com.bo",
+                "https://www.lunasaladahotel.com.bo/es/"
+            ]
         }
-      ]
-  }
+    ]
+}
