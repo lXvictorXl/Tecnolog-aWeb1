@@ -251,12 +251,15 @@ label {
     size: 100% 100%;
     margin: auto;
     border: black solid;
+    width: 90%;
+    height: 10rem;
 }
 #infoHotel1,#infoHotel2{
     size: 100% 100%;
     margin: auto;
     border: black solid;
-    
+    width: 90%;
+    height: 10rem;
 }
 #hotel1{
     background-image: url("/Tecnolog-aWeb1/imagenes/HotelLunaSalada.jpg");
