@@ -248,14 +248,14 @@ label {
    
 }
 #tituloHotel1,#tituloHotel2{
-    size: 100% 100%;
+    
     margin: auto;
     border: black solid;
     width: 90%;
     height: 10rem;
 }
 #infoHotel1,#infoHotel2{
-    size: 100% 100%;
+    
     margin: auto;
     border: black solid;
     width: 90%;
