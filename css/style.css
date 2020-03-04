@@ -1,46 +1,51 @@
 html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
 body {
     margin: 0px 0px 0px 0px;
-   
+}
 
-  }
-  #fondo{
-    transition: 0.3s;
+#fondo {
+    transition: 0.25s;
     width: 100%;
-    height:100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-    background-image: url("/imagenes/SalarUyuni10.jpg");
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg");
     background-size: 100% 100%;
     background-position: center;
     z-index: -1;
-  }
-  #logoYnombre{
-  
-     width: 50%;
-      border: solid black;
-      
-  }
-  #logo{
-     float: left;
-      background-image: url("/imagenes/logoSalarTransparente.png");
-      background-size: 100% 100%;
-      width: 25%;
-      height: 8rem;
-      border:solid black;
-  }
-  #titulo{
-      border: solid black;
-      font-size: 400%; 
-  }
+}
 
-  header{
-      padding: 1rem;
-  }
+#logoYnombre {
+    /*border: black solid;*/
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#logo {
+    /*border: black solid;*/
+    float: left;
+    background-image: url("/Tecnolog-aWeb1/imagenes/logoSalarTransparente.png");
+    background-size: 100% 100%;
+    height: 90%;
+}
+
+#titulo {
+    /*border: black solid;*/
+    font-size: 400%;
+}
+
+header {
+    padding: 1rem;
+}
+
 /*font-family: 'Barlow', sans-serif;
 font-family: 'Sriracha', cursive;
 font-family: 'Dancing Script', cursive;
@@ -48,77 +53,217 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 font-family: 'Comfortaa', cursive;
 font-family: 'Simonetta', cursive;
 font-family: 'Oranienbaum', serif;*/
-h1{
+
+h1 {
     font-family: 'Sulphur Point', sans-serif;
 }
-h2{
+
+h2 {
     font-family: 'Dancing Script', cursive;
+    font-size: 400%;
 }
 
-#central{
-    border: solid 1px ;
-    
-    text-align: center;
-    
-    height:10rem ;
+#central {
+    /*border: black solid;*/
+    height: 5rem;
     width: 90%;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 9%;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
 }
-#menu{
+
+#menu {
     font-size: 400%;
-    font-weight: lighter;
-    margin:7% 15% 0 15%;
-    border: black solid;
-    display: inline-block;
-    transition: 0.3s;
-    
-}
-#flechaAtras{
-    transition: 0.3s;
-    width: 8%;
-    height: 27px;
-    background-image:url("/imagenes/flechaLargaAtras.png");
-    background-size: 100% 100%;
-    border:solid black;
-    display: inline-block;
-}
-#flechaAdelante{
-    transition: 0.3s;
-    width: 8%;
-    height: 27px;
-    background-image:url("/imagenes/flechaLarga.png");
-    background-size: 100% 100%;
-    border:solid black;
-    display: inline-block;
-}
-footer{
-    border: solid black;
+    font-weight: bolder;
     text-align: center;
-    margin-top: 10%;
-    
+    margin: 0;
+    /*border: black solid;*/
+    transition: 0.3s;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: solid;
+    color: black;
 }
-p{
+
+#flechaAtras {
+    /*border: black solid;*/
+    transition: 0.3s;
+    width: 80%;
+    height: 60%;
+    background-image: url("/Tecnolog-aWeb1/imagenes/flecha2Atras.png");
+    background-size: 100% 100%;
+    margin: auto;
+    margin-left: 0;
+}
+
+#flechaAdelante {
+    /*border: black solid;*/
+    transition: 0.3s;
+    width: 80%;
+    height: 60%;
+    background-image: url("/Tecnolog-aWeb1/imagenes/flecha2.png");
+    background-size: 100% 100%;
+    margin: auto;
+    margin-right: 0;
+}
+
+#barraNav {
+    width: 18%;
+    height: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 80% 20%;
+}
+
+#uno, #dos, #tres, #cuatro {
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 10%;
+    transition: 0.3s;
+}
+
+#lugares, #hoteles, #galeria, #contactos {
+    text-align: center;
+    background-color: black;
+    margin: 0 2px 0 2px;
+    transition: 0.3s;
+}
+
+#hoteles, #galeria, #contactos {
+    background-color: white;
+    transition: 0.3s;
+}
+
+footer {
+    /*border: solid black;*/
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Barlow', sans-serif;
+}
+
+p {
     font-family: 'Barlow', sans-serif;
     text-align: justify;
 }
-.galeria img{
+
+.galeria img {
     width: 350px;
     height: 200px;
 }
-.galeria{
+
+.galeria {
     width: 90%;
-    margin:auto;
+    margin: auto;
     padding: 20px;
 }
-.formulario{
+
+.formulario {
     width: 50%;
     margin: auto;
 }
-.tituloContactos{
+
+.tituloContactos {
     margin: auto;
 }
-label{
+
+label {
     font-family: 'Roboto', ;
 }
 
+/************Estilos Cabecera*/
+
+#cabeceraHotel {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 15%;
+    grid-template-rows: 100%;
+    position: fixed;
+    margin-top: 3%;
+    
+}
+
+#subTitulo {
+    margin: auto;
+    margin-left: 5%;
+}
+
+#volverHome {
+    text-decoration: solid;
+    color: black;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 100%;
+   
+    transition: 0.5s;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border-radius: 5%;
+}
+
+#flechaAtrasHome {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Tecnolog-aWeb1/imagenes/flechaLargaAtras.png");
+    background-size: 80% 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+#home {
+    
+    font-size: 170%;
+    margin: auto;
+    margin-left: 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+}
+#volverHome:hover{
+    font-size: 115%;
+    
+}
+#flechaAtrasHome:hover{
+    width: 110%;
+    
+}
+/************Estilos pagina de hoteles*/
+#mainHotel{
+    width: 100%;
+    height: 80rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+#hotel1,#hotel2{
+    size: 100% 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+   
+}
+#tituloHotel1,#tituloHotel2{
+    size: 100% 100%;
+    margin: auto;
+    border: black solid;
+}
+#infoHotel1,#infoHotel2{
+    size: 100% 100%;
+    margin: auto;
+    border: black solid;
+    
+}
+#hotel1{
+    background-image: url("/Tecnolog-aWeb1/imagenes/HotelLunaSalada.jpg");
+    background-size: 100% 100%;
+    border-bottom: 0.3rem solid black;  
+}
+#hotel2{
+    background-image: url("/Tecnolog-aWeb1/imagenes/hotel01.jpg");
+    background-size: 100% 100%;
+}
