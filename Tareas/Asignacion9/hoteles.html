@@ -24,14 +24,71 @@
     </header>
     <main id="mainHotel">
         <div id="hotel1">
-            <div id="tituloHotel1"></div>
-            <div id="infoHotel1"></div>
+            <div class="tituloHotel"></div>
+            <div class="infoHotel"></div>
         </div>
         <div id="hotel2">
-            <div id="infoHotel2"></div>
-            <div id="tituloHotel2"></div>
+            <div class="infoHotel"></div>
+            <div class="tituloHotel"></div>
         </div>
     </main>
+    <script>
+        var tituloHotel = document.getElementsByClassName('tituloHotel');
+        var infoHotel = document.getElementById('infoHotel');
+
+        var requestURL = 'https://lxvictorxl.github.io/Tecnolog-aWeb1/json/informacion.json';
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'text';
+        request.send();
+        request.onload = function () {
+            var infoHotelesText = request.response;
+            var inforHoteles = JSON.parse(infoHotelesText);
+            titulosHoteles(inforHoteles);
+        }
+
+        function titulosHoteles(jsonObj) {
+            var hoteles = jsonObj['Hoteles'];
+
+            for (var i = 0; i < hoteles.length; i++) {
+                var myH2 = document.createElement('h2');
+                myH2.textContent = hoteles[i].Hotel;
+                tituloHotel[i].appendChild(myH2);
+
+                var myPara = document.createElement('p');
+                myPara.textContent = 'Ubicación: ' + hoteles[i].Ubicacion;
+                tituloHotel[i].appendChild(myPara);
+
+                var myPara1 = document.createElement('p');
+                myPara1.textContent = 'Caracteristicas: ' + hoteles[i].Caracteristicas;
+
+                /*var myArticle = document.createElement('article');
+                var myPara1 = document.createElement('p');
+                var myPara2 = document.createElement('p');
+                var myList = document.createElement('ul');
+
+                myPara1.textContent = 'Caracteristicas: ' + hoteles[i].Caracteristicas;
+                myPara2.textContent = 'Contactos: ';
+
+                var contactos = hoteles[i].Contactos;
+
+                for (var j = 0; j <contactos.length; j++) {
+                    var listItem = document.createElement('li');
+                    listItem.textContent = contactos[j];
+                    myList.appendChild(listItem);
+                }
+                myArticle.appendChild(myPara1);
+                myArticle.appendChild(myPara2);
+                myArticle.appendChild(myList);
+                infoHotel[i].appendChild(myArticle);*/
+
+            }
+
+
+        }
+
+
+    </script>
 </body>
-<script src="/Tecnolog-aWeb1/js/scripVictor.js"></script>
+
 </html>

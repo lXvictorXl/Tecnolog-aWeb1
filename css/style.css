@@ -247,14 +247,14 @@ label {
     grid-template-rows: 100%;
    
 }
-#tituloHotel1,#tituloHotel2{
+.tituloHotel{
     
     margin: auto;
     border: black solid;
     width: 90%;
     height: 10rem;
 }
-#infoHotel1,#infoHotel2{
+.infoHotel{
     
     margin: auto;
     border: black solid;

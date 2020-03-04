@@ -159,7 +159,7 @@ function linkear() {
 
 }
 
-//////ASIGNACION9-JSON
+/*ASIGNACION9-JSON*/
 var tituloHotel1 = document.getElementById('tituloHotel1');
 var tituloHotel2 = document.getElementById('tituloHotel2');
 var infoHotel1 = document.getElementById('infoHotel1');
@@ -197,6 +197,8 @@ var myArticle = document.createElement('article');
 var myPara1 = document.createElement('p');
 var myPara2 = document.createElement('p');
 var myList = document.createElement('ul');
+myPara2.textContent = 'Contactos: ';
+infoHotel2.appendChild(myPara2);
 function infoHoteles(jsonObj) {
 
 
