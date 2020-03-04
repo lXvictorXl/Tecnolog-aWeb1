@@ -250,15 +250,18 @@ label {
 .tituloHotel{
     
     margin: auto;
-    border: black solid;
+
     padding: 2%;
    color: white;
    display: grid;
    grid-template-columns: 100%;
    grid-template-rows: 50% 25%;
+   background-color: rgb(19, 19, 43);
+   opacity: 0.6;
+   border-radius: 3%;
 }
-.tituloHotel p,.tituloHotel h2{
-    border: black solid;
+.tituloHotel h2{
+    text-align: center;
 }
 .infoHotel article{
     margin: 5%;
@@ -269,6 +272,9 @@ label {
     margin: auto;
     border: black solid;
     color: white;
+    background-color: rgb(19, 19, 43);
+    opacity: 0.6;
+    border-radius: 3%;
 }
 #hotel1{
     background-image: url("/Tecnolog-aWeb1/imagenes/HotelLunaSalada.jpg");

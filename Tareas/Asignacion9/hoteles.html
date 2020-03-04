@@ -32,68 +32,64 @@
             <div class="tituloHotel"></div>
         </div>
     </main>
-    <script>
-        var tituloHotel = document.getElementsByClassName('tituloHotel');
-        var infoHotel = document.getElementsByClassName('infoHotel');
 
-        var requestURL = 'https://lxvictorxl.github.io/Tecnolog-aWeb1/json/informacion.json';
-        var request = new XMLHttpRequest();
-        request.open('GET', requestURL);
-        request.responseType = 'text';
-        request.send();
-        request.onload = function () {
-            var infoHotelesText = request.response;
-            var inforHoteles = JSON.parse(infoHotelesText);
-            titulosHoteles(inforHoteles);
-        }
-
-        function titulosHoteles(jsonObj) {
-            var hoteles = jsonObj['Hoteles'];
-
-            for (var i = 0; i < hoteles.length; i++) {
-                var myH2 = document.createElement('h2');
-                myH2.textContent = hoteles[i].Hotel;
-                tituloHotel[i].appendChild(myH2);
-
-                var myPara = document.createElement('p');
-                myPara.textContent = 'Ubicación: ' + hoteles[i].Ubicacion;
-                tituloHotel[i].appendChild(myPara);
-
-
-                var myArticle = document.createElement('article');
-                var myPara1 = document.createElement('p');
-                var myPara2 = document.createElement('p');
-                var myList = document.createElement('ul');
-
-                myPara1.textContent = 'Caracteristicas: ' + hoteles[i].Caracteristicas;
-                myPara2.textContent = 'Contactos: ';
-
-                var contactos = hoteles[i].Contactos;
-
-                for (var j = 0; j <contactos.length; j++) {
-                    var listItem = document.createElement('li');
-                    listItem.textContent = contactos[j];
-                    myList.appendChild(listItem);
-                }
-                myArticle.appendChild(myPara1);
-                myArticle.appendChild(myPara2);
-                myArticle.appendChild(myList);
-
-                infoHotel[i].appendChild(myArticle);
-
-                
-                if(i==1)
-                {
-                    infoHotel[i].style.marginTop="22%";
-                }
-
-            }
-
-
-        }
-
-
-    </script>
 </body>
+<script>
+    var tituloHotel = document.getElementsByClassName('tituloHotel');
+    var infoHotel = document.getElementsByClassName('infoHotel');
+
+    var requestURL = 'https://lxvictorxl.github.io/Tecnolog-aWeb1/json/informacion.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'text';
+    request.send();
+    request.onload = function () {
+        var infoHotelesText = request.response;
+        var inforHoteles = JSON.parse(infoHotelesText);
+        titulosHoteles(inforHoteles);
+    }
+
+    function titulosHoteles(jsonObj) {
+        var hoteles = jsonObj['Hoteles'];
+
+        for (var i = 0; i < hoteles.length; i++) {
+            var myH2 = document.createElement('h2');
+            myH2.textContent = hoteles[i].Hotel;
+            tituloHotel[i].appendChild(myH2);
+
+            var myPara = document.createElement('p');
+            myPara.textContent = 'Ubicación: ' + hoteles[i].Ubicacion;
+            tituloHotel[i].appendChild(myPara);
+
+
+            var myArticle = document.createElement('article');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myList = document.createElement('ul');
+
+            myPara1.textContent = 'Caracteristicas: ' + hoteles[i].Caracteristicas;
+            myPara2.textContent = 'Contactos: ';
+
+            var contactos = hoteles[i].Contactos;
+
+            for (var j = 0; j < contactos.length; j++) {
+                var listItem = document.createElement('li');
+                listItem.textContent = contactos[j];
+                myList.appendChild(listItem);
+            }
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myList);
+
+            infoHotel[i].appendChild(myArticle);
+
+            if (i == 1) {
+                infoHotel[i].style.marginTop = "22%";
+            }
+        }
+    }
+
+
+</script>
 
 </html>
