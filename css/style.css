@@ -238,7 +238,7 @@ label {
     height: 80rem;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 54% 46%;
 }
 #hotel1,#hotel2{
     size: 100% 100%;
@@ -253,9 +253,19 @@ label {
     border: black solid;
     padding: 2%;
    color: white;
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 50% 25%;
 }
+.tituloHotel p,.tituloHotel h2{
+    border: black solid;
+}
+.infoHotel article{
+    margin: 5%;
+}
+
 .infoHotel{
-    size: 100% 100%;
+    width: 80%;
     margin: auto;
     border: black solid;
     color: white;
@@ -263,7 +273,7 @@ label {
 #hotel1{
     background-image: url("/Tecnolog-aWeb1/imagenes/HotelLunaSalada.jpg");
     background-size: 100% 100%;
-    border-bottom: 0.3rem solid black;  
+    border-bottom: 0.4rem solid black;  
 }
 #hotel2{
     background-image: url("/Tecnolog-aWeb1/imagenes/hotel01.jpg");
