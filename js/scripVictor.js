@@ -186,11 +186,11 @@ function titulosHoteles(jsonObj) {
   tituloHotel2.appendChild(myH2);
 
   var myPara = document.createElement('p');
-  myPara.textContent = 'Ubicación: ' + hoteles[0].Ubicacion + ' // Formed: ' + jsonObj['formed'];
+  myPara.textContent = 'Ubicación: ' + hoteles[0].Ubicacion;
   tituloHotel1.appendChild(myPara);
 
   myPara = document.createElement('p');
-  myPara.textContent = 'Ubicación: ' + hoteles[1].Ubicacion + ' // Formed: ' + jsonObj['formed'];
+  myPara.textContent = 'Ubicación: ' + hoteles[1].Ubicacion;
   tituloHotel2.appendChild(myPara);
 }
 function infoHoteles(jsonObj) {
