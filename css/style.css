@@ -18,7 +18,7 @@ body {
     top:0;
     position: absolute;
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg");
-    background-size: 100% 114%;
+    background-size: 100% 100%;
     background-position: center;
     z-index: -1;
 }

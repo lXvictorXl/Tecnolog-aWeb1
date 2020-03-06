@@ -51,7 +51,7 @@ function regresarFlechaOriginalAdelante() {
 titulosMenuNav.addEventListener("mouseout", volverOriginalTituloNav);
 function volverOriginalTituloNav() {
   titulosMenuNav.style.letterSpacing = "0px";
-  imgenFondo.style.backgroundSize = "100% 114%";
+  imgenFondo.style.backgroundSize = "100% 100%";
   imgenFondo.style.backgroundPosition = "center";
 }
 
