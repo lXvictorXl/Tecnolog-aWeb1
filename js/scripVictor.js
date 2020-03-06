@@ -51,12 +51,12 @@ function regresarFlechaOriginalAdelante() {
 titulosMenuNav.addEventListener("mouseout", volverOriginalTituloNav);
 function volverOriginalTituloNav() {
   titulosMenuNav.style.letterSpacing = "0px";
-  imgenFondo.style.backgroundSize = "100% 100%";
+  imgenFondo.style.backgroundSize = "100% 114%";
   imgenFondo.style.backgroundPosition = "center";
 }
 
 var images = ['url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg")', 'url("/Tecnolog-aWeb1/imagenes/hotel01.jpg")', 'url("/Tecnolog-aWeb1/imagenes/tours04.jpg")', 'url("/Tecnolog-aWeb1/imagenes/contacto01.jpg")'];
-var titulos = ["Lugares Turísticos", "Hoteles", "Galeria", "Contacto"];
+var titulos = ["Lugares Turísticos", "Hoteles", "Galería", "Contacto"];
 var num = 0;
 
 flechaAdelante.addEventListener("click", siguiente);

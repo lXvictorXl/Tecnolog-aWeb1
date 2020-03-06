@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,23 +10,26 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Tecnolog-aWeb1/css/style.css">
-   
+
 </head>
 
-<body>
-    <header>
+<body >
+    <header id="cabecera">
         <div id="logoYnombre">
             <div id="logo"></div>
             <h1 id="titulo">UYUNI-BOLIVIA</h1>
-
         </div>
-
+        <div id="clima">
+            <div class="tituloClima">TEMPERATURA</div>
+            <div class="tituloClima">HUMEDAD</div>
+            <div id="cc-temp"></div>
+            <div id="humedad"></div>
+        </div>
     </header>
-    <div id="fondo"></div>
+<div id="fondo"></div>
     <main>
-        
         <div id="central">
-            <div id="flechaAtras"> 
+            <div id="flechaAtras">
             </div>
             <a href="" id="menu">Lugares Turísticos</a>
             <div id="flechaAdelante"></div>
@@ -41,8 +44,6 @@
             <div id="galeria"></div>
             <div id="contactos"></div>
         </div>
-        
-
     </main>
     <footer>
         &copy;
@@ -51,7 +52,8 @@
         </script>
         Victor Veizaga - Location: Bolivia
     </footer>
-    
+    <script src="/Tecnolog-aWeb1/js/scripVictor.js"></script>
+    <script src="/Tecnolog-aWeb1/js/weatherapi.js"></script>
 </body>
-<script src="/Tecnolog-aWeb1/js/scripVictor.js"></script>
+
 </html>
