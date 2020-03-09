@@ -1,56 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
+    <title>Uyuni-Contactos</title>
     <link
         href="https://fonts.googleapis.com/css?family=Barlow|Comfortaa|Dancing+Script|Simonetta|Sriracha|Yanone+Kaffeesatz&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/Tecnolog-aWeb1/css/style.css">
+    <link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
 </head>
 
-<body>
+<body id="bodyContactos">
+    <header id="cabecera2">
+        <h2 id="subTitulo">Formulario de Contactos</h2>
+        <a href="/Tecnolog-aWeb1/Tareas/Asignacion3/proyecto.html" id="volverHome">
+            <div id="flechaAtrasHome"></div>
+            <div id="home">HOME</div>
+        </a>
+    </header>
     <main>
-        <div class="tituloContactos">
-        <h2>Formulario de Contactos</h2>
+        <div id="formulario">
+            <form method="GET" action=gracias.html>
+                <p class="nombre">
+                    <label>Nombre Completo*</label>
+                    <input class="entrada" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Name"
+                            required>
+                </p>
+                <p class="email">
+                    <label>E_mail</label>
+                    <input class="entrada" type="email" name="e-mail" placeholder="example@mymail.com">
+                </p>
+                <p class="telefono">
+                    <label>Telefono*</label>
+                    <input class="entrada" type="tel" name="phone" placeholder="###-###-#####"
+                            required>
+                </p>
+ 
+                <p class="tipoUsuario">
+                    <label>Tipo de usuario </label><input class="entrada" list="typeuser" name="TypeUser">
+                        <datalist id="typeuser">
+                            <option value="Turista Nacional"></option>
+                            <option value="Turista Extrangero"></option>
+                        </datalist>
+                    
+                </p>
+                <p class="">
+                    <label>Fecha</label>
+                    <input class="entrada" type="date" name="date">
+                </p>
+                <p class="lugarInformacion">
+                    <label>Lugar de interés</label>
+                      <br><br>   
+                          <select name="place">
+                            <option value="">Seleccione Lugar</option>
+                            <option value="Uyuni">Uyuni</option>
+                            <option value="Salar">Salar</option>
+                            <option value="Laguna">Laguna Colorada</option>
+                       </select>
+                   
+                </p>
+
+                <div class="sexo">
+                    <fieldset>
+                        <legend>Sexo <em>(Seleccione uno)</em></legend>
+                        <label><input type="radio" name="sexo" value="F">Femenino</label>
+                        <label><input type="radio" name="sexo" value="M">Masculino</label>
+                    </fieldset>
+                </div>
+                <p class="bloque">
+                    <label>Informacion Adicional </label>
+                    <textarea name="aditional" cols="30" rows="3"></textarea>
+                </p>
+                <p class="bloque">
+                    <button id="boton" type="submit" class="send">ENVIAR</button>
+                </p>
+            </form>
         </div>
-        <form method="GET" action=gracias.html>
-            <fieldset class="formulario">
-                <legend>Información:</legend>
-                <label>Nombre Completo* <input type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Name"
-                        required></label>
-                <label>E_mail <input type="email" name="e-mail" placeholder="example@mymail.com"></label>
-                <label>Telefono* <input type="tel" name="phone" placeholder="###-###-#####" required></label>
-                <label>Fecha <input type="date" name="date"></label>
-                <label>Tipo de usuario <input list="typeuser" name="TypeUser">
-                    <datalist id="typeuser">
-                        <option value="Turista Nacional"></option>
-                        <option value="Turista Extrangero"></option>
-                    </datalist>
-                </label>
-                <label>Lugar del que require más información
-                    <select name="place">
-                        <option value="">Seleccione Lugar</option>
-                        <option value="Uyuni">Uyuni</option>
-                        <option value="Salar">Salar</option>
-                        <option value="Laguna">Laguna Colorada</option>
-                    </select>
-                </label>
-
-                <fieldset>
-                    <legend>Sexo <em>(Seleccione uno)</em></legend>
-                    <label><input type="radio" name="sexo" value="F">Femenino</label>
-                    <label><input type="radio" name="sexo" value="M">Masculino</label>
-                </fieldset>
-
-                <label>Informacion Adicional <textarea name="aditional" cols="30" rows="10"></textarea></label>
-            </fieldset>
-            <input type="submit" class="send" value="Send">
-        </form>
     </main>
 </body>
 

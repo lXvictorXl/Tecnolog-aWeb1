@@ -144,7 +144,7 @@ titulosMenuNav.addEventListener("click", linkear);
 function linkear() {
   switch (num) {
     case 0:
-
+      titulosMenuNav.href = "/Tecnolog-aWeb1/Tareas/Asignacion3/lugares.html";
       break;
     case 1:
       titulosMenuNav.href = "/Tecnolog-aWeb1/Tareas/Asignacion9/hoteles.html";
