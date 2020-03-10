@@ -278,7 +278,6 @@ p {
 }
 
 #hotel1, #hotel2 {
-    size: 100% 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
@@ -445,7 +444,6 @@ p {
 }
 
 #lugar1, #lugar2, #lugar3, #lugar4 {
-    size: 100% 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
@@ -467,7 +465,7 @@ p {
     text-align: center;
 }
 
-.infoLugar article {
+.infoLugar .articulo {
     margin: 5%;
 }
 
@@ -610,7 +608,6 @@ p {
         grid-template-rows: 45% 55%;
     }
     #hotel1, #hotel2 {
-        size: 100% 100%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 20% 80%;
@@ -785,7 +782,6 @@ p {
         grid-template-rows: 50% 50%;
     }
     #hotel1, #hotel2 {
-        size: 100% 100%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 20% 80%;
