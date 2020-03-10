@@ -604,6 +604,7 @@ p {
 @media screen and (max-width:480px) {
     /*********PAGINA PRINCIPAL*******/
     #cabecera {
+        margin-top: 12%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 70% 30%;
@@ -624,6 +625,7 @@ p {
     #climaTotal {
         height: 100%;
         width: 80%;
+        margin-top: 10%;
     }
     #fuenteClima {
         font-size: 50%;
@@ -643,7 +645,7 @@ p {
         font-size: 400%;
     }
     #central{
-        margin-top: 25%;
+        margin-top: 35%;
     }
     #menu {
         font-size: 250%;
@@ -657,7 +659,7 @@ p {
         font-size: 150%;
     }
     footer {
-        margin-top: 39%;
+        margin-top: 50%;
         font-size: 90%;
         margin-bottom: 10%;
     }
