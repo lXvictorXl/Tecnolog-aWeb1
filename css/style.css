@@ -21,7 +21,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
-    border: black solid;
 }
 
 #logo {
@@ -35,7 +34,6 @@
 #titulo {
     /*border: black solid;*/
     font-size: 400%;
-    border: black solid;
     width: 100%;
 }
 
@@ -132,16 +130,13 @@ h2 {
     font-weight: bolder;
     text-align: center;
     margin: 0;
-    /*border: black solid;*/
     transition: 0.3s;
     font-family: 'Dancing Script', cursive;
     text-decoration: solid;
     color: black;
-    border: black solid;
 }
 
 #flechaAtras {
-    border: black solid;
     transition: 0.3s;
     width: 80%;
     height: 60%;
