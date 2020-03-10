@@ -1,16 +1,18 @@
+* {
+    box-sizing: border-box;
+}
 
-*{
-    box-sizing: border-box; 
- }
-
+body {
+    margin: 0;
+}
 
 /*----------------------Pagina Principal--------------------*/
 
 #fondo {
-    margin: 0px 0px 0px 0px;  
+    margin: 0px 0px 0px 0px;
     transition: 0.25s;
-   padding: 2%;
-   padding-bottom: 3%;
+    padding: 2%;
+    padding-bottom: 3%;
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg");
     background-size: 100% 100%;
     background-position: center;
@@ -20,7 +22,7 @@
 #logoYnombre {
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 25% 75%;
 }
 
 #logo {
@@ -41,9 +43,9 @@
     padding: 1rem;
     display: grid;
     grid-template-columns: 70% 30%;
-    
 }
-#climaTotal{
+
+#climaTotal {
     display: grid;
     grid-template-columns: 85% 15%;
     height: 70%;
@@ -52,8 +54,8 @@
     opacity: 0.4;
     border-radius: 8px;
     margin: auto;
-    
 }
+
 #clima {
     display: grid;
     grid-template-columns: 56% 44%;
@@ -64,19 +66,19 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Barlow', sans-serif;
-   
-   
 }
-#fuenteClima{
+
+#fuenteClima {
     writing-mode: vertical-rl;
- margin: 0;
- padding: 20%;
- text-align-last: left;
-   font-size: 90%;
-   color: white;
-   background-color: black;
-   border-radius:0 8px 8px 0;
+    margin: 0;
+    padding: 20%;
+    text-align-last: left;
+    font-size: 90%;
+    color: white;
+    background-color: black;
+    border-radius: 0 8px 8px 0;
 }
+
 #humedad {
     margin: 0 auto auto auto;
     font-size: 250%;
@@ -93,7 +95,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    
 }
 
 /*font-family: 'Barlow', sans-serif;
@@ -114,7 +115,6 @@ h2 {
 }
 
 #central {
-    
     height: 5rem;
     width: 90%;
     margin: auto;
@@ -193,24 +193,26 @@ footer {
     margin-top: 6%;
     font-family: 'Barlow', sans-serif;
 }
-#fecha{
+
+#fecha {
     display: inline;
 }
+
 p {
     font-family: 'Barlow', sans-serif;
     text-align: justify;
 }
 
-
-
 /************Estilos Cabecera***************/
-#cabecera2 {   
+
+#cabecera2 {
     width: 100%;
     display: grid;
     grid-template-columns: 80% 15%;
     grid-template-rows: 100%;
     margin-top: 3%;
 }
+
 #cabeceraHotel {
     width: 100%;
     display: grid;
@@ -347,7 +349,6 @@ p {
 }
 
 #formulario form {
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -371,15 +372,17 @@ p {
     margin: 6%;
     text-align: left;
 }
-.sexo{
+
+.sexo {
     margin-top: 8%;
     margin-left: 5%;
     text-align: center;
 }
-#formulario form fieldset{
-    border: darkblue solid;
 
+#formulario form fieldset {
+    border: darkblue solid;
 }
+
 #boton {
     display: block;
     background-color: limegreen;
@@ -389,27 +392,32 @@ p {
     border-radius: 5px;
     border: none;
     font-family: 'Barlow', sans-serif;
-    font-weight:  bold;
+    font-weight: bold;
 }
-#boton:hover{
+
+#boton:hover {
     cursor: pointer;
 }
-#gracias{
-margin: auto;
-   font-size: 250%;
-  margin-top: 10%;
-  background-color: white;
-  opacity: 0.5;
+
+#gracias {
+    margin: auto;
+    font-size: 250%;
+    margin-top: 10%;
+    background-color: white;
+    opacity: 0.5;
 }
-#gracias p{
+
+#gracias p {
     text-align: center;
 }
 
 /***********ESTILOS GALERIA**********/
-#cuerpoGaleria{
+
+#cuerpoGaleria {
     background-image: url("/Tecnolog-aWeb1/imagenes/fonfoGaleria2.jpg");
-background-size: cover;
+    background-size: cover;
 }
+
 .galeria img {
     width: 350px;
     height: 200px;
@@ -421,11 +429,12 @@ background-size: cover;
     margin: auto;
     padding: 20px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
-    
 }
+
 /***************ESTILOS LUGARES**********/
+
 #mainLugares {
     width: 100%;
     height: 163rem;
@@ -434,7 +443,7 @@ background-size: cover;
     grid-template-rows: 26% 24% 26% 24%;
 }
 
-#lugar1,#lugar2,#lugar3,#lugar4 {
+#lugar1, #lugar2, #lugar3, #lugar4 {
     size: 100% 100%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -470,33 +479,39 @@ background-size: cover;
     opacity: 0.6;
     border-radius: 5px;
 }
+
 #lugar1 {
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni08.jpg");
     background-size: 100% 100%;
     padding-top: 1%;
 }
+
 #lugar2 {
     background-image: url("/Tecnolog-aWeb1/imagenes/cementeriotrenes02.jpg");
     background-size: 100% 100%;
     padding-top: 1%;
 }
+
 #lugar3 {
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni09.jpg");
     background-size: 100% 100%;
     padding-top: 1%;
-}#lugar4 {
+}
+
+#lugar4 {
     background-image: url("/Tecnolog-aWeb1/imagenes/galeria.jpg");
     background-size: 100% 100%;
     padding-top: 6%;
 }
+
 /*****************MEDIA QUERIES***********/
-@media screen and (min-width:480px) and (max-width:1000px){
+
+@media screen and (min-width:480px) and (max-width:1000px) {
     /*********PAGINA PRINCIPAL*******/
     #cabecera {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 60% 40%;
-       
     }
     #logoYnombre {
         width: 100%;
@@ -508,19 +523,16 @@ background-size: cover;
     }
     #logo {
         height: 80%;
-        
     }
-
-
     #climaTotal {
         height: 80%;
-        width: 60%;     
-        margin-top: 1%;    
+        width: 60%;
+        margin-top: 1%;
     }
-    #fuenteClima{
+    #fuenteClima {
         font-size: 60%;
         text-align-last: left;
-        padding:15%;
+        padding: 15%;
     }
     #humedad {
         font-size: 170%;
@@ -533,30 +545,63 @@ background-size: cover;
     }
     #central {
         margin-top: 8%;
-     
     }
- 
     #menu {
         margin: auto;
-        font-size: 296%;      
+        font-size: 296%;
     }
-  #barraNav {
+    #barraNav {
         width: 30%;
     }
     #uno, #dos, #tres, #cuatro {
-        font-size: 150%; 
+        font-size: 150%;
     }
     footer {
         margin-top: 13%;
-        font-size: 150%;
-      
+        font-size: 120%;
         margin-bottom: 6%;
     }
+    /**************CABECERA***********/
+    #cabeceraHotel {
+        width: 100%;
+        grid-template-columns: 70% 25%;
+    }
+    #subTitulo {
+        font-size: 300%;
+    }
+
+    #home {
+        font-size: 110%;
+    }
     /*********PAGINA LUGARES*******/
-    
+    #mainLugares {
+        height: 153rem;
+    }
+    #lugar1, #lugar2, #lugar3, #lugar4 {
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+    }
+    .tituloLugar {
+        padding:0% 2%;
+        margin-top: 20%;
+    }
+    .tituloLugar h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+    .infoLugar article {
+        margin: auto;
+        font-size: 90%;
+    }
+    .infoLugar {
+        width: 70%;
+        margin-top: 30%;
+        padding: 0% 2%;
+    }
+   
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     /*********PAGINA PRINCIPAL*******/
     #cabecera {
         display: grid;
@@ -578,9 +623,9 @@ background-size: cover;
     }
     #climaTotal {
         height: 100%;
-        width: 80%;         
+        width: 80%;
     }
-    #fuenteClima{
+    #fuenteClima {
         font-size: 50%;
         text-align-last: left;
     }
@@ -597,20 +642,64 @@ background-size: cover;
         font-family: 'Dancing Script', cursive;
         font-size: 400%;
     }
+    #central{
+        margin-top: 25%;
+    }
     #menu {
-        font-size: 220%;
+        font-size: 250%;
         margin: auto;
     }
     #barraNav {
+        
         width: 40%;
     }
     #uno, #dos, #tres, #cuatro {
-        font-size: 130%; 
+        font-size: 150%;
     }
     footer {
-        margin-top: 19%;
-        font-size: 80%;
-        margin-bottom: 1%;
+        margin-top: 39%;
+        font-size: 90%;
+        margin-bottom: 10%;
+    }
+    /**************CABECERA***********/
+    #cabeceraHotel {
+     
+        grid-template-columns: 100%;
+        grid-template-rows: 60% 40%;
+    }
+    #volverHome {
+        margin: 2% 0 0 5%;
+        width: 30%;
+    }
+    #subTitulo {
+        font-size: 250%;
+    }
+    #home {
+        font-size: 100%;
     }
     /*********PAGINA LUGARES*******/
+    #mainLugares {
+        height: 173rem;
+    }
+    #lugar1, #lugar2, #lugar3, #lugar4 {
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+    }
+    .tituloLugar {
+        padding:0% 2%;
+        margin-top: 28%;
+    }
+    .tituloLugar h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+    .infoLugar article {
+        margin: auto;
+        font-size: 90%;
+    }
+    .infoLugar {
+        width: 70%;
+        margin-top: 30%;
+        padding: 0% 2%;
+    }
 }
