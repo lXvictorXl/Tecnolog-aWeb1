@@ -583,7 +583,7 @@ p {
     }
     .tituloLugar {
         padding:0% 2%;
-        margin-top: 20%;
+        margin-top: 18%;
     }
     .tituloLugar h2 {
         text-align: center;
@@ -595,7 +595,7 @@ p {
     }
     .infoLugar {
         width: 70%;
-        margin-top: 30%;
+        margin-top: 28%;
         padding: 0% 2%;
     }
    
@@ -665,7 +665,7 @@ p {
     }
     /**************CABECERA***********/
     #cabeceraHotel {
-     
+     margin-top: 7%;
         grid-template-columns: 100%;
         grid-template-rows: 60% 40%;
     }
@@ -681,7 +681,7 @@ p {
     }
     /*********PAGINA LUGARES*******/
     #mainLugares {
-        height: 173rem;
+        height: 212rem;
     }
     #lugar1, #lugar2, #lugar3, #lugar4 {
         grid-template-columns: 100%;
@@ -689,7 +689,7 @@ p {
     }
     .tituloLugar {
         padding:0% 2%;
-        margin-top: 28%;
+        margin-top: 38%;
     }
     .tituloLugar h2 {
         text-align: center;
@@ -701,7 +701,7 @@ p {
     }
     .infoLugar {
         width: 70%;
-        margin-top: 30%;
-        padding: 0% 2%;
+        margin-top: 40%;
+        padding: 0% 3%;
     }
 }
