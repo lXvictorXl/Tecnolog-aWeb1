@@ -704,4 +704,58 @@ p {
         margin-top: 40%;
         padding: 0% 3%;
     }
+
+    /************Estilos pagina de hoteles***********/
+
+#mainHotel {
+    width: 100%;
+    height: 105rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+#hotel1, #hotel2 {
+    size: 100% 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+.tituloHotel {
+ margin-top: 30%;
+ height: 8rem;
+    padding: 0 2%;
+    color: white;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 20%;
+
+}
+
+.tituloHotel h2 {
+    text-align: center;
+    font-size: 250%;
+}
+
+.infoHotel article {
+    margin: 5%;
+}
+
+
+.infoHotel {
+    width: 80%;
+    margin: auto;
+margin-top: 25%;
+}
+
+#hotel1 {
+
+    padding-top: 3%;
+}
+
+#hotel2 {
+
+    padding-top: 1%;
+}
 }
