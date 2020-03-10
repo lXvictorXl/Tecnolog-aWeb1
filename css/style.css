@@ -478,27 +478,53 @@ background-size: cover;
 /*****************MEDIA QUERIES***********/
 @media screen and (min-width:480px) and (max-width:780px){
     #cabecera {
-        padding: 0.7rem;
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 100%;
+        grid-template-rows: 60% 40%;
     }
     #logoYnombre {
-        width: 65%;
+        width: 100%;
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 25% 75%;
     }
-    
-    #logo {
-        /*border: black solid;*/
-        float: left;
-        background-image: url("/Tecnolog-aWeb1/imagenes/logoSalarTransparente.png");
-        background-size: 100% 100%;
-        height: 90%;
-    }
-    
     #titulo {
-        border: black solid;
-        font-size: 50%;
+        font-size: 340%;
+    }
+
+
+
+    #clima {
+        height: 100%;
+        width: 70%;     
+        margin-top: 3%;    
+    }
+    #humedad {
+        font-size: 200%;
+    }
+    #cc-temp {
+        font-size: 200%;
+    }
+    .tituloClima {
+        font-size: 100%;
+    }
+ 
+
+    #central {
+        margin-top: 6%;
+    }
+    #menu {
+        font-size: 350%;
+        margin: auto;
+    }
+    #barraNav {
+        width: 40%;
+    }
+    #uno, #dos, #tres, #cuatro {
+        font-size: 130%; 
+    }
+
+    footer {
+        font-size: 100%;
     }
 }
 @media screen and (max-width:480px){
@@ -517,7 +543,7 @@ background-size: cover;
         margin-top: 15px;
     }
     #titulo {
-        font-size: 250%;
+        font-size: 260%;
         padding-top: 5%;
     }
     #clima {
@@ -533,67 +559,24 @@ background-size: cover;
     .tituloClima {
         font-size: 70%;
     }
-
-
     h2 {
         font-family: 'Dancing Script', cursive;
         font-size: 400%;
     }
-    
-    #central {
-        /*border: black solid;*/
-        height: 5rem;
-        width: 90%;
-        margin: auto;
-        margin-top: 9%;
-        margin-bottom: 2rem;
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        grid-template-rows: 100%;
-    }
-    
     #menu {
         font-size: 250%;
         margin: auto;
     }
-    
-    #flechaAtras {
-        /*border: black solid;*/
-        transition: 0.3s;
-        width: 80%;
-        height: 60%;
-        background-image: url("/Tecnolog-aWeb1/imagenes/flecha2Atras.png");
-        background-size: 100% 100%;
-        margin: auto;
-        margin-left: 0;
-    }
-    
-    #flechaAdelante {
-        /*border: black solid;*/
-        transition: 0.3s;
-        width: 80%;
-        height: 60%;
-        background-image: url("/Tecnolog-aWeb1/imagenes/flecha2.png");
-        background-size: 100% 100%;
-        margin: auto;
-        margin-right: 0;
-    }
-    
     #barraNav {
         width: 40%;
     }
-    
     #uno, #dos, #tres, #cuatro {
         font-size: 130%; 
     }
-    
-
-    
     #hoteles, #galeria, #contactos {
         background-color: white;
         transition: 0.3s;
     }
-    
     footer {
         font-size: 80%;
     }
