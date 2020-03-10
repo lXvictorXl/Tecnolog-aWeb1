@@ -49,22 +49,40 @@ body {
     display: grid;
     grid-template-columns: 75% 25%;
 }
-
-#clima {
+#climaTotal{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 85% 15%;
     height: 70%;
     width: 100%;
     background-color: white;
     opacity: 0.4;
     border-radius: 8px;
+    margin: auto;
+    
+}
+#clima {
+    display: grid;
+    grid-template-columns: 56% 44%;
+    grid-template-rows: 44% 56%;
+    height: 100%;
+    width: 100%;
+    margin: auto;
     font-weight: bold;
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    margin: auto;
+   
+   
 }
-
+#fuenteClima{
+    writing-mode: vertical-rl;
+ margin: 0;
+ padding: 20%;
+ text-align-last: center;
+   font-size: 90%;
+   color: white;
+   background-color: black;
+   border-radius:0 8px 8px 0;
+}
 #humedad {
     margin: 0 auto auto auto;
     font-size: 250%;
@@ -76,10 +94,12 @@ body {
 }
 
 .tituloClima {
-    margin: auto;
     font-size: 120%;
     font-family: 'Barlow', sans-serif;
-    margin: auto auto 9% auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 /*font-family: 'Barlow', sans-serif;
@@ -488,41 +508,47 @@ background-size: cover;
         grid-template-columns: 25% 75%;
     }
     #titulo {
-        font-size: 340%;
+        font-size: 300%;
+    }
+    #logo {
+        height: 80%;
+        
     }
 
 
-
-    #clima {
-        height: 100%;
-        width: 70%;     
-        margin-top: 3%;    
+    #climaTotal {
+        height: 80%;
+        width: 60%;     
+        margin-top: 1%;    
+    }
+    #fuenteClima{
+        font-size: 60%;
+        text-align-last: left;
+        padding:15%;
     }
     #humedad {
-        font-size: 200%;
+        font-size: 170%;
     }
     #cc-temp {
-        font-size: 200%;
+        font-size: 170%;
     }
     .tituloClima {
-        font-size: 100%;
+        font-size: 80%;
     }
- 
-
     #central {
-        margin-top: 6%;
+        margin-top: 5%;
     }
     #menu {
-        font-size: 350%;
-        margin: auto;
+        font-size: 300%;
+      margin: auto;
+      
     }
     #barraNav {
-        width: 40%;
+        width: 30%;
     }
     #uno, #dos, #tres, #cuatro {
-        font-size: 130%; 
+        font-size: 150%; 
     }
-
     footer {
         font-size: 100%;
     }
@@ -536,25 +562,29 @@ background-size: cover;
     #logoYnombre {
         width: 100%;
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 30% 70%;
     }
     #logo {
-        height: 70%;
+        height: 60%;
         margin-top: 15px;
     }
     #titulo {
-        font-size: 260%;
+        font-size: 220%;
         padding-top: 5%;
     }
-    #clima {
+    #climaTotal {
         height: 100%;
-        width: 100%;         
+        width: 80%;         
+    }
+    #fuenteClima{
+        font-size: 60%;
+        text-align-last: left;
     }
     #humedad {
-        font-size: 150%;
+        font-size: 130%;
     }
     #cc-temp {
-        font-size: 150%;
+        font-size: 130%;
     }
     .tituloClima {
         font-size: 70%;
@@ -564,7 +594,7 @@ background-size: cover;
         font-size: 400%;
     }
     #menu {
-        font-size: 250%;
+        font-size: 220%;
         margin: auto;
     }
     #barraNav {
@@ -573,11 +603,7 @@ background-size: cover;
     #uno, #dos, #tres, #cuatro {
         font-size: 130%; 
     }
-    #hoteles, #galeria, #contactos {
-        background-color: white;
-        transition: 0.3s;
-    }
     footer {
-        font-size: 80%;
+        font-size: 70%;
     }
 }

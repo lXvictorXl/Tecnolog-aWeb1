@@ -14,47 +14,53 @@
     <link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
 </head>
 
-<body >
-    <header id="cabecera">
-        <div id="logoYnombre">
-            <div id="logo"></div>
-            <h1 id="titulo">UYUNI-BOLIVIA</h1>
-        </div>
-        <div id="clima">
-            <div class="tituloClima">TEMPERATURA</div>
-            <div class="tituloClima">HUMEDAD</div>
-            <div id="cc-temp"></div>
-            <div id="humedad"></div>
-        </div>
-    </header>
-<div id="fondo"></div>
-    <main>
-        <div id="central">
-            <div id="flechaAtras">
+<body>
+    <div id="fondo">
+        <header id="cabecera">
+            <div id="logoYnombre">
+                <div id="logo"></div>
+                <h1 id="titulo">UYUNI-BOLIVIA</h1>
             </div>
-            <a href="" id="menu">Lugares Turísticos</a>
-            <div id="flechaAdelante"></div>
-        </div>
-        <div id="barraNav">
-            <div id="uno">01</div>
-            <div id="dos"></div>
-            <div id="tres"></div>
-            <div id="cuatro"></div>
-            <div id="lugares"></div>
-            <div id="hoteles"></div>
-            <div id="galeria"></div>
-            <div id="contactos"></div>
-        </div>
-    </main>
-    <footer>
-        &copy;
-        <script>
-            document.write(new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear());
-        </script>
-        Victor Veizaga - Location: Bolivia
-    </footer>
-    <script src="/Tecnolog-aWeb1/js/scripVictor.js"></script>
-    <script src="/Tecnolog-aWeb1/js/weatherapi.js"></script>
+            <div id="climaTotal">
+                
+                <div id="clima">
+                    <div class="tituloClima">TEMPERATURA</div>
+                    <div class="tituloClima">HUMEDAD</div>
+                    <div id="cc-temp"></div>
+                    <div id="humedad"></div>
+                </div>
+                <p id="fuenteClima">Open Weather Map</p>
+            </div>
+        </header>
+
+        <main>
+            <div id="central">
+                <div id="flechaAtras">
+                </div>
+                <a href="" id="menu">Lugares Turísticos</a>
+                <div id="flechaAdelante"></div>
+            </div>
+            <div id="barraNav">
+                <div id="uno">01</div>
+                <div id="dos"></div>
+                <div id="tres"></div>
+                <div id="cuatro"></div>
+                <div id="lugares"></div>
+                <div id="hoteles"></div>
+                <div id="galeria"></div>
+                <div id="contactos"></div>
+            </div>
+        </main>
+        <footer>
+            &copy;
+            <script>
+                document.write(new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear());
+            </script>
+            Victor Veizaga - Location: Bolivia
+        </footer>
+        <script src="/Tecnolog-aWeb1/js/scripVictor.js"></script>
+        <script src="/Tecnolog-aWeb1/js/weatherapi.js"></script>
+    </div>
 </body>
 
 </html>
