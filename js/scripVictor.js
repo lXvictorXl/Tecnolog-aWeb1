@@ -3,6 +3,10 @@ var flechaAdelante = document.getElementById("flechaAdelante");
 var imgenFondo = document.getElementById("fondo");
 var titulosMenuNav = document.getElementById("menu");
 
+document.getElementById("fecha").innerHTML=new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear();
+
+
+
 flechaAtras.addEventListener("mouseover", agrandarFlechaAtras);
 function agrandarFlechaAtras() {
   flechaAtras.style.width = "95%";
@@ -158,5 +162,3 @@ function linkear() {
   }
 
 }
-
-

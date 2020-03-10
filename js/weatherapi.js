@@ -16,8 +16,6 @@ addEventListener usando el parámetro load. */
 document.getElementById ('cc-temp'). innerHTML = weatherData.main.temp+'°C';
 document.getElementById('humedad').innerHTML=weatherData.main.humidity+'%';
 
- let icon ="http://openweathermap.org/img/wn/"+weatherData.weather.font.icon+".png";
- let desc = weatherData.weather [0] .description;
- document.getElementById ('cc-img'). setAttribute ('src', icono);
- document.getElementById ('cc-img'). setAttribute ('alt', desc);
+
+ 
  }

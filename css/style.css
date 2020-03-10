@@ -193,7 +193,9 @@ footer {
     margin-top: 6%;
     font-family: 'Barlow', sans-serif;
 }
-
+#fecha{
+    display: inline;
+}
 p {
     font-family: 'Barlow', sans-serif;
     text-align: justify;
@@ -489,6 +491,7 @@ background-size: cover;
 }
 /*****************MEDIA QUERIES***********/
 @media screen and (min-width:480px) and (max-width:1000px){
+    /*********PAGINA PRINCIPAL*******/
     #cabecera {
         display: grid;
         grid-template-columns: 100%;
@@ -545,13 +548,16 @@ background-size: cover;
     }
     footer {
         margin-top: 13%;
-        font-size: 110%;
+        font-size: 150%;
       
         margin-bottom: 6%;
     }
+    /*********PAGINA LUGARES*******/
     
 }
+
 @media screen and (max-width:480px){
+    /*********PAGINA PRINCIPAL*******/
     #cabecera {
         display: grid;
         grid-template-columns: 100%;
@@ -603,7 +609,8 @@ background-size: cover;
     }
     footer {
         margin-top: 19%;
-        font-size: 70%;
+        font-size: 80%;
         margin-bottom: 1%;
     }
+    /*********PAGINA LUGARES*******/
 }
