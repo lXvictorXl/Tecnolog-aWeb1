@@ -10,7 +10,7 @@
     margin: 0px 0px 0px 0px;  
     transition: 0.25s;
    padding: 2%;
-   padding-bottom: 8%;
+   padding-bottom: 3%;
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg");
     background-size: 100% 100%;
     background-position: center;
@@ -535,9 +535,7 @@ background-size: cover;
  
     #menu {
         margin: auto;
-        font-size: 296%;
-     border: black solid;
-      
+        font-size: 296%;      
     }
   #barraNav {
         width: 30%;
@@ -601,7 +599,7 @@ background-size: cover;
         font-size: 130%; 
     }
     footer {
-        margin-top: 15%;
+        margin-top: 19%;
         font-size: 70%;
     }
 }
