@@ -572,7 +572,7 @@ background-size: cover;
         width: 80%;         
     }
     #fuenteClima{
-        font-size: 60%;
+        font-size: 50%;
         text-align-last: left;
     }
     #humedad {
@@ -601,5 +601,6 @@ background-size: cover;
     footer {
         margin-top: 19%;
         font-size: 70%;
+        margin-bottom: 1%;
     }
 }
