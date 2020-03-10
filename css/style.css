@@ -2,19 +2,15 @@
 *{
     box-sizing: border-box; 
  }
-body {
-    margin: 0px 0px 0px 0px;   
-}
+
 
 /*----------------------Pagina Principal--------------------*/
 
 #fondo {
+    margin: 0px 0px 0px 0px;  
     transition: 0.25s;
-   width: 100%;
-   height: 100%;
-   left: 0;
-    top: 0;
-    position: absolute;
+   padding: 2%;
+   padding-bottom: 8%;
     background-image: url("/Tecnolog-aWeb1/imagenes/SalarUyuni10.jpg");
     background-size: 100% 100%;
     background-position: center;
@@ -199,7 +195,7 @@ h2 {
 footer {
     /*border: solid black;*/
     text-align: center;
-    margin-top: 5%;
+    margin-top: 6%;
     font-family: 'Barlow', sans-serif;
 }
 
