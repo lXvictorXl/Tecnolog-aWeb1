@@ -220,6 +220,7 @@ p {
     grid-template-rows: 100%;
     position: fixed;
     margin-top: 3%;
+    z-index: 1;
 }
 
 #subTitulo {
@@ -227,7 +228,7 @@ p {
     margin-left: 5%;
 }
 
-#volverHome {
+#volverHome, #volverHome2 {
     text-decoration: solid;
     color: black;
     display: grid;
@@ -562,6 +563,9 @@ p {
         margin-bottom: 6%;
     }
     /**************CABECERA***********/
+    #cabecera2 {
+        grid-template-columns: 70% 20%;
+    }
     #cabeceraHotel {
         width: 100%;
         grid-template-columns: 70% 25%;
@@ -569,7 +573,6 @@ p {
     #subTitulo {
         font-size: 300%;
     }
-
     #home {
         font-size: 110%;
     }
@@ -582,7 +585,7 @@ p {
         grid-template-rows: 15% 85%;
     }
     .tituloLugar {
-        padding:0% 2%;
+        padding: 0% 2%;
         margin-top: 18%;
     }
     .tituloLugar h2 {
@@ -598,7 +601,65 @@ p {
         margin-top: 28%;
         padding: 0% 2%;
     }
-   
+    /************Estilos pagina de hoteles***********/
+    #mainHotel {
+        width: 100%;
+        height: 105rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 45% 55%;
+    }
+    #hotel1, #hotel2 {
+        size: 100% 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 80%;
+    }
+    .tituloHotel {
+        margin-top: 15%;
+        height: 6rem;
+        padding: 0 2%;
+        color: white;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 20%;
+    }
+    .tituloHotel h2 {
+        text-align: center;
+        font-size: 250%;
+        margin-top: 5%;
+    }
+    .infoHotel article {
+        margin: 5%;
+    }
+    .infoHotel {
+        width: 80%;
+        margin: auto;
+        margin-top: 20%;
+    }
+    #hotel1 {
+        padding-top: 3%;
+    }
+    #hotel2 {
+        padding-top: 1%;
+    }
+    /***********Estilos Formulario de Contactos***********/
+    #formulario {
+        width: 80%;
+    }
+    #formulario form p {
+        margin-left: 3%;
+        margin-right: 3%;
+        grid-column: 1/3;
+    }
+    .sexo {
+        width: 225px;
+    }
+    #gracias {
+        margin-bottom: 50%;
+        font-size: 250%;
+        margin-top: 50%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -644,7 +705,7 @@ p {
         font-family: 'Dancing Script', cursive;
         font-size: 400%;
     }
-    #central{
+    #central {
         margin-top: 35%;
     }
     #menu {
@@ -652,7 +713,6 @@ p {
         margin: auto;
     }
     #barraNav {
-        
         width: 40%;
     }
     #uno, #dos, #tres, #cuatro {
@@ -664,10 +724,22 @@ p {
         margin-bottom: 10%;
     }
     /**************CABECERA***********/
+    #cabecera2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
     #cabeceraHotel {
-     margin-top: 7%;
+        margin-top: 7%;
         grid-template-columns: 100%;
         grid-template-rows: 60% 40%;
+    }
+    #volverHome2 {
+        margin: 2% 0 0 5%;
+        width: 80%;
     }
     #volverHome {
         margin: 2% 0 0 5%;
@@ -688,7 +760,7 @@ p {
         grid-template-rows: 15% 85%;
     }
     .tituloLugar {
-        padding:0% 2%;
+        padding: 0% 2%;
         margin-top: 38%;
     }
     .tituloLugar h2 {
@@ -704,58 +776,61 @@ p {
         margin-top: 40%;
         padding: 0% 3%;
     }
-
     /************Estilos pagina de hoteles***********/
-
-#mainHotel {
-    width: 100%;
-    height: 105rem;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
-}
-
-#hotel1, #hotel2 {
-    size: 100% 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 80%;
-}
-
-.tituloHotel {
- margin-top: 30%;
- height: 8rem;
-    padding: 0 2%;
-    color: white;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 20%;
-
-}
-
-.tituloHotel h2 {
-    text-align: center;
-    font-size: 250%;
-}
-
-.infoHotel article {
-    margin: 5%;
-}
-
-
-.infoHotel {
-    width: 80%;
-    margin: auto;
-margin-top: 25%;
-}
-
-#hotel1 {
-
-    padding-top: 3%;
-}
-
-#hotel2 {
-
-    padding-top: 1%;
-}
+    #mainHotel {
+        width: 100%;
+        height: 105rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #hotel1, #hotel2 {
+        size: 100% 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 80%;
+    }
+    .tituloHotel {
+        margin-top: 30%;
+        height: 8rem;
+        padding: 0 2%;
+        color: white;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 20%;
+    }
+    .tituloHotel h2 {
+        text-align: center;
+        font-size: 250%;
+    }
+    .infoHotel article {
+        margin: 5%;
+    }
+    .infoHotel {
+        width: 80%;
+        margin: auto;
+        margin-top: 25%;
+    }
+    #hotel1 {
+        padding-top: 3%;
+    }
+    #hotel2 {
+        padding-top: 1%;
+    }
+    /***********Estilos Formulario de Contactos***********/
+    #formulario {
+        width: 80%;
+    }
+    #formulario form p {
+        margin-left: 3%;
+        margin-right: 3%;
+        grid-column: 1/3;
+    }
+    .sexo {
+        width: 225px;
+    }
+    #gracias {
+        margin-bottom: 110%;
+        font-size: 150%;
+        margin-top: 80%;
+    }
 }

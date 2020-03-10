@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Tecnolog-aWeb1/css/style.css">
     <link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/Tecnolog-aWeb1/imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
 </head>
 
 <body id="bodyContactos">
     <header id="cabecera2">
-        <h2 id="subTitulo">Formulario de Contactos</h2>
-        <a href="/Tecnolog-aWeb1/Tareas/Asignacion3/proyecto.html" id="volverHome">
+        <h2 id="subTitulo">Contactos</h2>
+        <a href="/Tecnolog-aWeb1/Tareas/Asignacion3/proyecto.html" id="volverHome2">
             <div id="flechaAtrasHome"></div>
             <div id="home">HOME</div>
         </a>
@@ -27,42 +27,42 @@
         <div id="formulario">
             <form method="GET" action=gracias.html>
                 <p class="nombre">
-                    <label>Nombre Completo*</label>
-                    <input class="entrada" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Name"
-                            required>
+                    <label>Nombre Completo* <input class="entrada" type="text" name="name" pattern="[A-Za-z].{5,}"
+                            placeholder="Name" required></label>
                 </p>
                 <p class="email">
-                    <label>E_mail</label>
-                    <input class="entrada" type="email" name="e-mail" placeholder="example@mymail.com">
+                    <label>E_mail <input class="entrada" type="email" name="e-mail"
+                            placeholder="example@mymail.com"></label>
+
                 </p>
                 <p class="telefono">
-                    <label>Telefono*</label>
-                    <input class="entrada" type="tel" name="phone" placeholder="###-###-#####"
-                            required>
+                    <label>Telefono*<input class="entrada" type="tel" name="phone" placeholder="###-###-#####"
+                            required></label>
+
                 </p>
- 
+
                 <p class="tipoUsuario">
-                    <label>Tipo de usuario </label><input class="entrada" list="typeuser" name="TypeUser">
-                        <datalist id="typeuser">
-                            <option value="Turista Nacional"></option>
-                            <option value="Turista Extrangero"></option>
-                        </datalist>
-                    
+                    <label>Tipo de usuario <input class="entrada" list="typeuser" name="TypeUser"></label>
+                    <datalist id="typeuser">
+                        <option value="Turista Nacional"></option>
+                        <option value="Turista Extrangero"></option>
+                    </datalist>
+
                 </p>
                 <p class="">
-                    <label>Fecha</label>
-                    <input class="entrada" type="date" name="date">
+                    <label>Fecha<input class="entrada" type="date" name="date"></label>
+
                 </p>
                 <p class="lugarInformacion">
-                    <label>Lugar de interés</label>
-                      <br><br>   
-                          <select name="place">
+                    <label>Lugar de interés<br><br>
+                        <select name="place">
                             <option value="">Seleccione Lugar</option>
                             <option value="Uyuni">Uyuni</option>
                             <option value="Salar">Salar</option>
                             <option value="Laguna">Laguna Colorada</option>
-                       </select>
-                   
+                        </select>
+                    </label>
+
                 </p>
 
                 <div class="sexo">
@@ -73,8 +73,8 @@
                     </fieldset>
                 </div>
                 <p class="bloque">
-                    <label>Informacion Adicional </label>
-                    <textarea name="aditional" cols="30" rows="3"></textarea>
+                    <label>Informacion Adicional<textarea name="aditional" cols="30" rows="3"></textarea> </label>
+
                 </p>
                 <p class="bloque">
                     <button id="boton" type="submit" class="send">ENVIAR</button>
