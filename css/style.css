@@ -44,7 +44,7 @@ body {
     font-size: 400%;
 }
 
-header {
+#cabecera {
     padding: 1rem;
     display: grid;
     grid-template-columns: 75% 25%;
@@ -380,6 +380,17 @@ p {
 #boton:hover{
     cursor: pointer;
 }
+#gracias{
+margin: auto;
+   font-size: 250%;
+  margin-top: 10%;
+  background-color: white;
+  opacity: 0.5;
+}
+#gracias p{
+    text-align: center;
+}
+
 /***********ESTILOS GALERIA**********/
 #cuerpoGaleria{
     background-image: url("/Tecnolog-aWeb1/imagenes/fonfoGaleria2.jpg");
@@ -463,4 +474,127 @@ background-size: cover;
     background-image: url("/Tecnolog-aWeb1/imagenes/galeria.jpg");
     background-size: 100% 100%;
     padding-top: 6%;
+}
+/*****************MEDIA QUERIES***********/
+@media screen and (min-width:480px) and (max-width:780px){
+    #cabecera {
+        padding: 0.7rem;
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    #logoYnombre {
+        width: 65%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    
+    #logo {
+        /*border: black solid;*/
+        float: left;
+        background-image: url("/Tecnolog-aWeb1/imagenes/logoSalarTransparente.png");
+        background-size: 100% 100%;
+        height: 90%;
+    }
+    
+    #titulo {
+        border: black solid;
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:480px){
+    #cabecera {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70% 30%;
+    }
+    #logoYnombre {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    #logo {
+        height: 70%;
+        margin-top: 15px;
+    }
+    #titulo {
+        font-size: 250%;
+        padding-top: 5%;
+    }
+    #clima {
+        height: 100%;
+        width: 100%;         
+    }
+    #humedad {
+        font-size: 150%;
+    }
+    #cc-temp {
+        font-size: 150%;
+    }
+    .tituloClima {
+        font-size: 70%;
+    }
+
+
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 400%;
+    }
+    
+    #central {
+        /*border: black solid;*/
+        height: 5rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 9%;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 100%;
+    }
+    
+    #menu {
+        font-size: 250%;
+        margin: auto;
+    }
+    
+    #flechaAtras {
+        /*border: black solid;*/
+        transition: 0.3s;
+        width: 80%;
+        height: 60%;
+        background-image: url("/Tecnolog-aWeb1/imagenes/flecha2Atras.png");
+        background-size: 100% 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+    
+    #flechaAdelante {
+        /*border: black solid;*/
+        transition: 0.3s;
+        width: 80%;
+        height: 60%;
+        background-image: url("/Tecnolog-aWeb1/imagenes/flecha2.png");
+        background-size: 100% 100%;
+        margin: auto;
+        margin-right: 0;
+    }
+    
+    #barraNav {
+        width: 40%;
+    }
+    
+    #uno, #dos, #tres, #cuatro {
+        font-size: 130%; 
+    }
+    
+
+    
+    #hoteles, #galeria, #contactos {
+        background-color: white;
+        transition: 0.3s;
+    }
+    
+    footer {
+        font-size: 80%;
+    }
 }
